@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../logo.svg';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
@@ -14,13 +13,11 @@ export default class  extends Component {
             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    
             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */}
 
-            <Link to='/'>
-                <img src={logo} alt='store' className='navbar-brand'/>
-            </Link>
+           
             <ul className='navbar-nav align-items-center'>
                 <li className='nav-item ml-5'>
                     <Link to='/' className='nav-link'>
-                         REKETI.hr
+                         ComCo.hr
                     </Link>
                 </li>
             </ul>
