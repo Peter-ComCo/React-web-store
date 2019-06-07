@@ -14,23 +14,23 @@ export default function CartTotals({value}) {
                     type='button'
                     onClick={()=>clearCart()}
                     >
-                    Očisti košaricu
+                    Clear Cart
                     </button>
                     </Link>
                     <h5>
                         <span className="text-title" >
-                        Cijena prije poreza : </span>
-                        <strong>{cartSubTotal} KN</strong>
+                        Price before tax : </span>
+                        <strong>{cartSubTotal} £</strong>
                     </h5>
                     <h5>
                         <span className="text-title" >
-                        Porez (25%) : </span>
-                        <strong>{cartTax} KN</strong>
+                        Tax (20%) : </span>
+                        <strong>{cartTax} £</strong>
                     </h5>
                     <h5>
                         <span className="text-title" >
-                        Konačna cijena : </span>
-                        <strong>{cartTotal} KN</strong>
+                        Total price : </span>
+                        <strong>{cartTotal} £</strong>
                     </h5>
                 </div>
             </div>

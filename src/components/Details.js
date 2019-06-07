@@ -28,16 +28,16 @@ export default class Details extends Component {
             <div className='col-10 mx-auto col-md-6 my-3'>
               <h1>Model : {title}</h1>
               <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
-              Proizvođač : <span className='text-uppercase'>{company}</span>
+              Author : <span className='text-uppercase'>{company}</span>
               </h4>
               <h4 className='text-blue'>
               <strong>
-                Cijena: <span> {price} </span>
-                KN
+                Price: <span> {price} </span>
+                £
               </strong>
               </h4>
               <p className="text-capitalize font-weight-bold mt-3 mb-0">
-              Informacije o proizvodu:
+              Info:
               </p>
               <p className="text-muted lead">
               {info}
@@ -45,7 +45,7 @@ export default class Details extends Component {
               {/* buttons */}
               <div>
                 <Link to='/'>
-                  <ButtonContainer>Natrag na proizvode</ButtonContainer>
+                  <ButtonContainer>Back to product list</ButtonContainer>
                 </Link>
                 <ButtonContainer
                 cart 
@@ -56,7 +56,7 @@ export default class Details extends Component {
 
                 }}
                 >
-                  {inCart ? 'U košarici' : 'Dodaj u košaricu'}
+                  {inCart ? 'In cart' : 'Add to cart'}
                 </ButtonContainer>
               </div>
             </div>

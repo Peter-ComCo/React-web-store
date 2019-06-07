@@ -23,7 +23,7 @@ export default class Product extends Component {
             {inCart ? (
               <p className='text-capitalize mb-0' disabled>
                 {' '}
-                U košarici
+                In cart
               </p>
             ) : (  
               <i className='fas fa-cart-plus' />
@@ -40,7 +40,7 @@ export default class Product extends Component {
           </p>
           <h5 className="text-blue font-italic mb-0">
             <span className='mr-1'>{price}</span>
-            KN
+            £
           </h5>
           </div>
       

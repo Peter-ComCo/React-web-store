@@ -17,7 +17,7 @@ export default class  extends Component {
             <ul className='navbar-nav align-items-center'>
                 <li className='nav-item ml-5'>
                     <Link to='/' className='nav-link'>
-                         ComCo.hr
+                         Welcome To My Portfolio Web Store
                     </Link>
                 </li>
             </ul>
@@ -25,7 +25,7 @@ export default class  extends Component {
                 <ButtonContainer>
                     <span className='mr-2'>
                     <i className="fas fa-cart-plus"/>
-                    Moja Košarica 
+                    My cart 
                     </span>
                 
                 </ButtonContainer>
