@@ -17,20 +17,20 @@ export default function CartTotals({value}) {
                     Clear Cart
                     </button>
                     </Link>
-                    <h5>
+                   {/* <h5>
                         <span className="text-title" >
                         Price before tax : </span>
-                        <strong>{cartSubTotal} £</strong>
+                        <strong>{cartSubTotal} €</strong>
                     </h5>
                     <h5>
                         <span className="text-title" >
                         Tax (20%) : </span>
                         <strong>{cartTax} £</strong>
-                    </h5>
+                   </h5>*/}
                     <h5>
                         <span className="text-title" >
                         Total price : </span>
-                        <strong>{cartTotal} £</strong>
+                        <strong>{cartTotal} €</strong>
                     </h5>
                 </div>
             </div>
